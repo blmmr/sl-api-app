@@ -2,6 +2,8 @@
 
 A Go-based web application that displays real-time transit departures for specified Stockholm transit stations using the SL (Stockholms Lokaltrafik) API.
 
+![Screenshot of the app](screenshots/tc_gullarsplan_screen.png)
+
 ## Features
 
 - Real-time departure information for specified transit stations
@@ -50,6 +52,9 @@ Note: Station names must match exactly with SL's naming convention.
 1. Start the application:
 ```bash
 ./go-api-app
+
+# OR
+go run main.go
 ```
 
 2. Open your web browser and navigate to:
